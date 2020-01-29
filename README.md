@@ -106,6 +106,4 @@ An [example](http://example.com).
 
 solution stuff here ![Image](Icon-pictures.jfif)
 
-> Markdown uses email-style > characters for blockquoting.
 
-Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.
