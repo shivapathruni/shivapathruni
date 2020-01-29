@@ -8,13 +8,6 @@ sid repo
 
 
 Heading
-==
----
-=
-
--
-=
-
 
 Sub-heading
 -----------
