@@ -107,7 +107,7 @@ Bullet list:
   * oranges
   * pears
 
-Numbered list:
+hit:
 
   1. lather
   2. rinse
