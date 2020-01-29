@@ -37,7 +37,7 @@ Numbered list:
 
 An [example](http://example.com).
 
-solution stuff here ![Image](Icon-pictures.jfif "icon")
+solution stuff here ![Image](Icon-pictures.jfif)
 
 > Markdown uses email-style > characters for blockquoting.
 
