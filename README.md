@@ -8,7 +8,11 @@ sid repo
 
 Made with ♥ and JavaScript [Brackets](https://en.wikipedia.org/wiki/Brackets_(text_editor)) is an open-source project, supported by an active and passionate community. It's made by other web developers like you! Learn How to Contribute…
 
+[Link to Brackets fetching a local file](https://github.com/CSUEB-DrB-CS/assignment-shivapathruni/blob/master/linksample/README.md)
 
+[or]
+
+[Link to Brackets routed to a web site ](http://brackets.io/)
 
 
 
@@ -107,7 +111,7 @@ Bullet list:
   * oranges
   * pears
 
-hit:
+Numbered list:
 
   1. lather
   2. rinse
