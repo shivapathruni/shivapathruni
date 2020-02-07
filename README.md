@@ -174,11 +174,69 @@ HTML code for "about.html" page
 
 ![Answer3b](images/answer3b.png "icon")
 
+### (c)
 
+![Answer3c](images/answer3c.png "icon")
 
+### (d)
 
+![Answer3d](images/answer3d.png "icon")
 
+### (e)
 
+![Answer3e](images/answer3e.png "icon")
+
+----
+## Question 3: JavaScript Review: Arrays and basic Objects. MDN Array
+
+### (a)
+
+![Answer4a](images/answer4a.png "icon")
+
+### (b)
+
+```
+sentence2 = "Whereas recognition of the inherent dignity and of the equal and inalienable rights of all members of the human family is the foundation of freedom, justice and peace in the world";
+myArray2 = sentence2.split(" "); 
+
+function upper(xString) { // (i) This function will convert the elements list in the array xString to uppercase and return back the array to the called function. 
+  return xString.toUpperCase();
+}
+
+myArray3 = myArray2.map(upper); // (ii) The map() method creates a new array populated with the results of calling a provided function on every element in the calling array. Resulted array will be moved to myArray3 in uppercase.
+
+function noCaseSort(x, y) {
+  if (x.toLowerCase() < y.toLowerCase()) { // (iii) To compare each element in lower case till the array list is sorted completely.
+    return -1;
+  } else {
+    return 1;
+  }
+  return 0;
+}
+
+myArray2.sort(noCaseSort);
+// (iv) To The sort() method sorts the elements of an array in place and returns the sorted array. It will call the  function noCaseSort(x, y) and resulted sorted array will be stored in myArray2.
+```
+
+![Answer4b](images/answer4b.png "icon")
+
+### (c)
+
+```
+me = {}; // creates an empty object
+me.name = "Shiva Pathruni";
+me["favorite desert"] = "Ice Cream";
+// (i) The field "favorite desert" has two strings which couldn't be accepted to use with syntax ' object.fieldname ' for assigning or accessing a value.So we have used the syntax ' object["fieldname"] '.
+me.courses = ["CS651", "CS311"];
+// (ii) Yes, we can put an array in an object.
+me.major = "Computer science";
+me.number = 9436; // (iii) My number is 51
+me.codeEditors = ["Brackets", "Notepad++", "Atom"]; // (iv) I too  use the same
+me["nick name"] = "Sid";
+console.log(me);
+```
+
+![Answer4c](images/answer4c.png "icon")
 
 
 
