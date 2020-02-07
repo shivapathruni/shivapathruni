@@ -100,9 +100,18 @@ Created directory "clubProject" within the top level of my repo hw2
 
 ### (b)
 
-Created “home page” (index.html), “about page” (about), and a “club activities page” (club_Activities)
+Created “home page” (index.html), “about page” and a “club activities page”.<br/>
+Added a `<main>` element to the `<body>` of all the 3 pages.<br/>
+Added unique `<title>` in the `<head>` placed some content for heading and paragraph in `<main>` element.<br/>
+(i) No <br/>
+(ii) No <br/>
+(iii) No <br/>
 
-Added a `<main>` element
+**File Names**
+
+    * index.html
+    * about page.html
+    * club activities page.html
 
 
 
