@@ -54,7 +54,33 @@ body {
 
 ### (d)
 
+```
+article figcaption {
+  font-size: 18px;
+  text-align: center;
+}
 
+a.navbar-brand img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: white;
+  margin-right: 10px;
+  padding: 3px;
+  border-right-color: #D4D4D4;
+  border-right-style: solid;
+  border-right-width: 1px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+}
+```
+
+**Answer:**
+
+There are four different combinators in CSS: descendant selector(space), child selector(>), adjacent sibling selector(+), general sibling selector(~)
+
+"article figcaption" and "a.navbar-brand img" used **descendant combinator** as decendent combinator use a space between any two selectors.
+
+In the above CSS fragments we combined two selectors such that elements matched by the second selector are selected if they have an ancestor (parent, parent's parent, parent's parent's parent, etc) element matching the first selector.
 
 
 
