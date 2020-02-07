@@ -43,7 +43,19 @@ body {
 }
 ```
 
-** Answer **
+**Answer:**
+
+**CSS selector:** body(TYPE SELECTOR), RelatedItems(ID SELECTOR), graphDrawing(CLASS SELECTOR)
+
+**CSS properties:** max-height, overflow-y, border, border-radius, width, margin, margin-bottom
+
+**CSS values:** 50vh, auto, dashed thin #808080, 5px, 90%, 0, 25px
+
+
+### (d)
+
+
+
 
 
 
