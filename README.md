@@ -3,7 +3,7 @@
 
 **NetID: gu9436**
 
-
+----
 ## Question1 : HTML & CSS Review
 
 ### (a)
@@ -91,6 +91,7 @@ There are four different combinators in CSS: descendant selector(space), child s
 
 In the above CSS fragments we combined two selectors such that elements matched by the second selector are selected if they have an ancestor (parent, parent's parent, parent's parent's parent, etc) element matching the first selector.
 
+
 ----
 ## Question2 : “Outline” pages/components for your club web app. We will start with an HTML page per “component”. We’ll learn what components are later.
 
@@ -163,6 +164,8 @@ HTML code for "about.html" page
 	</body>
 </html>
 ```
+
+
 ----
 ## Question 3: JavaScript Review: strings and numbers, conversions, hex and binary. MDN string string manipulation methods.
 
@@ -186,8 +189,9 @@ HTML code for "about.html" page
 
 ![Answer3e](images/answer3e.png "icon")
 
+
 ----
-## Question 3: JavaScript Review: Arrays and basic Objects. MDN Array
+## Question 4: JavaScript Review: Arrays and basic Objects. MDN Array
 
 ### (a)
 
@@ -226,7 +230,7 @@ myArray2.sort(noCaseSort);
 me = {}; // creates an empty object
 me.name = "Shiva Pathruni";
 me["favorite desert"] = "Ice Cream";
-**// (i) The field "favorite desert" has two strings which couldn't be accepted to use with syntax ' object.fieldname ' for assigning or accessing a value.So we have used the syntax ' object["fieldname"] '.**
+// (i) The field "favorite desert" has two strings which couldn't be accepted to use with syntax ' object.fieldname ' for assigning or accessing a value.So we have used the syntax ' object["fieldname"] '.
 me.courses = ["CS651", "CS311"];
 // (ii) Yes, we can put an array in an object.
 me.major = "Computer science";
@@ -239,10 +243,25 @@ console.log(me);
 ![Answer4c](images/answer4c.png "icon")
 
 
+----
+## Question 5: Initial styling for your club app. Create a stylesheet named club.css and put it in the top level of your clubProject directory. Link it in the `<head>` of all your site files.
+
+### (a)
+
+![Answer5a](images/answer5a.png "icon")
+
+### (b)
+
+![Answer5b](images/answer5b.png "icon")
+
+### (c)
+
+![Answer5c](images/answer5c.png "icon")
 
 
 
-
+----
+----
 
 
 
