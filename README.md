@@ -133,34 +133,42 @@ Created a "navigation menu" for all the pages
 
 ### (f)
 
+HTML code for about.html page
 ```
 <html>
 	<head>
 		<title>
-		Club_Activities page
+		about page
 		</title>
 	</head>
 	<body>
-		<header>
+        <header>
             <h1 align=center>CLUB PROJECT</h1>
         <nav>
             <ul>
                 <li><a href="/index.html">Home</a></li>
-                <li class="active"><a href="activities.html">Activities</a></li>
+                <li><a href="/activities.html">Activities</a></li>
                 <li class="active"><a href="/about.html">About us</a></li>
             </ul>
-        </nav>
+        </nav>    
         </header>
 		<main>
-            <h1 align=center> Welcome to the Club Activities </h1>
-            <p> A club is an association of people united by a common interest or goal. A service club, for example, exists for voluntary or charitable activities. There are clubs devoted to hobbies and sports, social activities clubs, political and religious clubs, and so forth.</P>
+            <h1 align=center> About us </h1>
+            <p> Historically, clubs occurred in all ancient states of which we have detailed knowledge. Once people started living together in larger groups, there was need for people with a common interest to be able to associate despite having no ties of kinship. Organizations of the sort have existed for many years, as evidenced by Ancient Greek clubs and associations (collegia) in Ancient Rome. </P>
 		</main>
         <footer>
+            <br><br><br>            
             <P> Copyright © 2020 SHIVA PATHRUNI (gu9436) </P>
         </footer>
 	</body>
 </html>
 ```
+
+## Question 3: JavaScript Review: strings and numbers, conversions, hex and binary. MDN string string manipulation methods.
+
+### (a)
+
+
 
 
 
