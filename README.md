@@ -226,7 +226,7 @@ myArray2.sort(noCaseSort);
 me = {}; // creates an empty object
 me.name = "Shiva Pathruni";
 me["favorite desert"] = "Ice Cream";
-// (i) The field "favorite desert" has two strings which couldn't be accepted to use with syntax ' object.fieldname ' for assigning or accessing a value.So we have used the syntax ' object["fieldname"] '.
+**// (i) The field "favorite desert" has two strings which couldn't be accepted to use with syntax ' object.fieldname ' for assigning or accessing a value.So we have used the syntax ' object["fieldname"] '.**
 me.courses = ["CS651", "CS311"];
 // (ii) Yes, we can put an array in an object.
 me.major = "Computer science";
