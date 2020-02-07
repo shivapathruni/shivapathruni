@@ -111,7 +111,7 @@ Added unique `<title>` in the `<head>` and placed some content for heading and p
 
     * index.html
     * about.html
-    * club_activities.html
+    * activities.html
 
 ### (c)
 
@@ -127,7 +127,42 @@ Added footer to all the pages under clubProject directory.<br/>
 
 ### (e)
 
+Created a "navigation menu" for all the pages 
+
 ![Answer2e](images/answer2e.png "icon")
+
+### (f)
+
+```
+<html>
+	<head>
+		<title>
+		Club_Activities page
+		</title>
+	</head>
+	<body>
+		<header>
+            <h1 align=center>CLUB PROJECT</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li class="active"><a href="activities.html">Activities</a></li>
+                <li class="active"><a href="/about.html">About us</a></li>
+            </ul>
+        </nav>
+        </header>
+		<main>
+            <h1 align=center> Welcome to the Club Activities </h1>
+            <p> A club is an association of people united by a common interest or goal. A service club, for example, exists for voluntary or charitable activities. There are clubs devoted to hobbies and sports, social activities clubs, political and religious clubs, and so forth.</P>
+		</main>
+        <footer>
+            <P> Copyright © 2020 SHIVA PATHRUNI (gu9436) </P>
+        </footer>
+	</body>
+</html>
+```
+
+
 
 
 
