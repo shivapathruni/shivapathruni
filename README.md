@@ -172,6 +172,7 @@ HTML code for "about.html" page
 
 ### (b)
 
+![Answer3b](images/answer3b.png "icon")
 
 
 
