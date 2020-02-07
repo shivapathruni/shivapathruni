@@ -91,7 +91,7 @@ There are four different combinators in CSS: descendant selector(space), child s
 
 In the above CSS fragments we combined two selectors such that elements matched by the second selector are selected if they have an ancestor (parent, parent's parent, parent's parent's parent, etc) element matching the first selector.
 
-
+----
 ## Question2 : “Outline” pages/components for your club web app. We will start with an HTML page per “component”. We’ll learn what components are later.
 
 ### (a)
@@ -133,7 +133,7 @@ Created a "navigation menu" for all the pages
 
 ### (f)
 
-HTML code for about.html page
+HTML code for "about.html" page
 ```
 <html>
 	<head>
@@ -163,15 +163,14 @@ HTML code for about.html page
 	</body>
 </html>
 ```
-
+----
 ## Question 3: JavaScript Review: strings and numbers, conversions, hex and binary. MDN string string manipulation methods.
 
 ### (a)
 
+![Answer3a](images/answer3a.png "icon")
 
-
-
-
+### (b)
 
 
 
