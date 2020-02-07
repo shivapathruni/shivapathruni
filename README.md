@@ -8,8 +8,9 @@
 
 ### (a)
 
-list of tags:         nav, a, img
-list of attributes:   class, alt, src, style
+**list of tags:**         nav, a, img
+
+**list of attributes:**   class, alt, src, style
      
 ### (b)
 
@@ -23,7 +24,7 @@ list of attributes:   class, alt, src, style
 
 ### (c)
 
-`
+```
 body {
   padding-bottom: 50px;
 }
@@ -40,7 +41,7 @@ body {
   margin: 0;
   margin-bottom: 25px;
 }
-`
+```
 
 ** Answer **
 
