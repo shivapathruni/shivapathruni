@@ -1,6 +1,7 @@
 # Homework #2 Solution
-**Your name**
-**NetID: yourNetID**
+**Shiva Pathruni**
+
+**NetID: gu9436**
 
 
 ## Question1 : HTML & CSS Review
@@ -8,9 +9,9 @@
 ### (a)
 
 list of tags:  
-    <nav>
-    <a>
-    <img>
+    nav
+    a
+    img
 list of attributes:
     class
     alt
@@ -19,9 +20,12 @@ list of attributes:
      
 ### (b)
 
-*We cannot have same id attribute on more than one element in an HTML document as id attribute specifies a unique id for an HTML element and also using it is a bad practice. 
+*We cannot have same id attribute on more than one element in an HTML document as id attribute specifies a unique id for an HTML element and also using it is a bad practice.
+
 *Because we use id attributes as targets for links within a page and  to manipulate the element with the specific id using javascript.
-*We can use same class on multiple elements in a document. 
+
+*We can use same class on multiple elements in a document.
+
 *Why because assigning the same class to multiple elements on the page will share the class style across those elements while giving you the ability to control the class properties from one single spot, meaning that if you change one of the class properties this will extend to all elements sharing that specific class.
 
 ### (c)
