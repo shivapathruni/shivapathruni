@@ -8,6 +8,15 @@
 
 ### (a)
 
+```
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+  <a class="navbar-brand d-none d-md-block" href="#">
+    <img alt="Grotto Networking" src="/images/sideLogo.png" style="width: 150px">
+  </a>
+</nav>
+```
+**Answer:**
+
 **list of tags:**         nav, a, img
 
 **list of attributes:**   class, alt, src, style
@@ -80,7 +89,14 @@ There are four different combinators in CSS: descendant selector(space), child s
 
 "article figcaption" and "a.navbar-brand img" used **descendant combinator** as decendent combinator use a space between any two selectors.
 
-In the above CSS fragments we combined two selectors such that elements matched by the second selector are selected if they have an ancestor (parent, parent's parent, parent's parent's parent, etc) element matching the first selector.
+In the above CSS fragments we combined two selectors such that elements matched by the second selector are selected if they have an ancestor \newline(parent, parent's parent, parent's parent's parent, etc) element matching the first selector.
+
+
+
+## Question1 : “Outline” pages/components for your club web app. We will start with an HTML page per “component”. We’ll learn what components are later.
+
+
+
 
 
 
