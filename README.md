@@ -3,15 +3,47 @@
 **NetID: yourNetID**
 
 
+## Question1 : HTML & CSS Review
 
+### (a)
 
+list of tags:  
+    <nav>
+    <a>
+    <img>
+list of attributes:
+    class
+    alt
+    src
+    style
+     
+### (b)
 
+*We cannot have same id attribute on more than one element in an HTML document as id attribute specifies a unique id for an HTML element and also using it is a bad practice. 
+*Because we use id attributes as targets for links within a page and  to manipulate the element with the specific id using javascript.
+*We can use same class on multiple elements in a document. 
+*Why because assigning the same class to multiple elements on the page will share the class style across those elements while giving you the ability to control the class properties from one single spot, meaning that if you change one of the class properties this will extend to all elements sharing that specific class.
 
+### (c)
 
+body {
+  padding-bottom: 50px;
+}
 
+#RelatedItems {
+  max-height: 50vh;
+  overflow-y: auto;
+}
 
+.graphDrawing {
+  border: dashed thin #808080;
+  border-radius: 5px;
+  width: 90%;
+  margin: 0;
+  margin-bottom: 25px;
+}
 
-
+** Answer **
 
 
 
