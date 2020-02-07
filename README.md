@@ -103,15 +103,15 @@ Created directory "clubProject" within the top level of my repo hw2
 Created “home page” (index.html), “about page” and a “club activities page”.<br/>
 Added a `<main>` element to the `<body>` of all the 3 pages.<br/>
 Added unique `<title>` in the `<head>` placed some content for heading and paragraph in `<main>` element.<br/>
-(i) No <br/>
-(ii) No <br/>
-(iii) No <br/>
+(i) No, we shouldn't put site wide navigation into the `<main>` element. <br/>
+(ii) No, we shouldn't put common banners (e.g., site logo) in the `<main>` element. <br/>
+(iii) No, we shouldn't put copyright notices in the `<main>` element.
 
 **File Names**
 
     * index.html
-    * about page.html
-    * club activities page.html
+    * about.html
+    * club_activities.html
 
 
 
