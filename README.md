@@ -94,8 +94,15 @@ In the above CSS fragments we combined two selectors such that elements matched 
 
 ## Question2 : “Outline” pages/components for your club web app. We will start with an HTML page per “component”. We’ll learn what components are later.
 
+### (a)
 
+Created directory "clubProject" within the top level of my repo hw2
 
+### (b)
+
+Created “home page” (index.html), “about page” (about), and a “club activities page” (club_Activities)
+
+Added a `<main>` element
 
 
 
