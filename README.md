@@ -102,7 +102,7 @@ Created directory "clubProject" within the top level of my repo hw2
 
 Created “home page” (index.html), “about page” and a “club activities page”.<br/>
 Added a `<main>` element to the `<body>` of all the 3 pages.<br/>
-Added unique `<title>` in the `<head>` placed some content for heading and paragraph in `<main>` element.<br/><br/>
+Added unique `<title>` in the `<head>` and placed some content for heading and paragraph in `<main>` element.<br/><br/>
 (i) No, we shouldn't put site wide navigation into the `<main>` element. <br/>
 (ii) No, we shouldn't put common banners (e.g., site logo) in the `<main>` element. <br/>
 (iii) No, we shouldn't put copyright notices in the `<main>` element.
@@ -113,12 +113,21 @@ Added unique `<title>` in the `<head>` placed some content for heading and parag
     * about.html
     * club_activities.html
 
+### (c)
 
+We should put the `<header>` element outside the `<main>` element according to the specification.<br/>
+When a `<header>` element’s nearest ancestor sectioning root element is the `<body>` element, and it is not a descendant of the `<main>` element or a sectioning content element, then that `<header>` is scoped to the `<body>` element and represents introductory content for the page as a whole.<br/>
+Added header to the files under clubProject directory.<br/> 
 
+### (d)
 
+No , We shouldn't put the `<footer>` element in `<main>` element according to the specification. Last item in the `<body>` is `<footer>` <br/>
+When a `<footer>` element’s nearest ancestor sectioning root element is the `<body>` element, and it is not a descendant of the `<main>` element or a sectioning content element, then that `<footer>` is scoped to the `<body>` element and represents a footer for the page as a whole.<br/>
+Added footer to all the pages under clubProject directory.<br/>
 
+### (e)
 
-
+![Answer2e](images/answer2e.png "icon")
 
 
 
