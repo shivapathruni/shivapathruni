@@ -258,6 +258,10 @@ console.log(me);
 
 ![Answer5c](images/answer5c.png "icon")
 
+### (d)
+
+![Answer5d](images/answer5d.png "icon")
+
 
 
 ----
