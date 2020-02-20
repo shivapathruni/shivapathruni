@@ -1,53 +1,83 @@
-# shivapathruni
+# Homework #1 Solution
 
-sid repo
+**Student Name**:  Shiva Pathruni
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+**NetID**: gu9436
 
-Made with ♥ and JavaScript [Brackets](https://en.wikipedia.org/wiki/Brackets_(text_editor)) is an open-source project, supported by an active and passionate community. It's made by other web developers like you! Learn How to Contribute…
+## Question 1    
 
-[Link to Brackets fetching a local file](https://github.com/CSUEB-DrB-CS/assignment-shivapathruni/blob/master/linksample/README.md)
+### (a)
 
-[or]
+![Answer1a](images/answer1a.png "icon")
 
-[Link to Brackets routed to a web site ](http://brackets.io/)
+### (b)
 
+![Answer1b](images/answer1b.png "icon")
 
+## Question 2
 
+### (a)
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+![Answer2a](images/answer2a.png "icon")
 
-**Written using markdown syntax**
+### (b)
 
+![Answer2b_1](images/answer2b_1.png "icon")
 
-Heading
+![Answer2b_2](images/answer2b_2.png "icon")
 
-Sub-heading
-=
+### (c)
 
-Paragraphs are separated
-by a blank line.
+![Answer2c](images/answer2c.png "icon")
 
-Two spaces at the end of a line  
-produces a line break.
+## Question 3
 
-Text attributes _italic_, 
-**bold**, `monospace`.
+### (a)
 
-Horizontal rule:
+.
 
----
+### (b)
 
-Strikethrough:
-~~strikethrough~~
+.
 
 
--------
--------
+## Question 4
 
-**Written using HTML**
+### (a)
+
+**Answer4a: Ordered list**
+
+Programming languages:
+
+  1. HTML
+  2. C
+  3. C++
+
+### (b)
+
+**Answer4b: Bullet list**
+
+Operating systems:
+
+  * Windows
+  * mac
+  * linux
+  
+### (c)
+
+**Answer4c: Bullet list**
+
+IDEs:
+
+  * Eclipse
+  * Netbeans
+  * Ruby Mine
+
+## Question 5
+
+### (a)
+
+**Written HTML and highlighted using Markdown mechanism**
 
 ```html
 <h1>Heading</h1>
@@ -71,54 +101,15 @@ produces a line break.</p>
 <strike>strikethrough</strike>
 ```
 
--------
--------
-
-**Written C code with markdown**
-
-**#include <stdio.h>**
-
-**int** main() {    
-
-   **int** number1, number2, sum;
-    
-   **printf**("Enter two integers: ");
-   
-   **scanf**("%d %d", &number1, &number2);
-   
-    // calculating sum
-    
-    sum = number1 + number2;      
-    
-   **printf**("%d + %d = %d", number1, number2, sum);
-   
-   **return** 0;
-   
-}
+### (b)
 
 
+[Link to Brackets fetching a local file](https://github.com/CSUEB-DrB-CS/assignment-shivapathruni/blob/master/linksample/README.md)
+
+[or]
+
+[Link to Brackets routed to a web site ](http://brackets.io/)
 
 
-
-
-
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-Bullet list:
-
-  * apples
-  * oranges
-  * pears
-
-Numbered list:
-
-  1. lather
-  2. rinse
-  3. repeat
-
-An [example](http://example.com).
-
-solution stuff here ![Image](Icon-pictures.jfif)
 
 
