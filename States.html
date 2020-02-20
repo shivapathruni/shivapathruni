@@ -1,74 +1,67 @@
-# Homework #3 Solution
-**Shiva Pathruni**
 
-**NetID: gu9436**
+<!DOCTYPE html>
+<html lang="en">
 
-----
-## Question1 : Images and Emojis
+<head>
+    <meta charset="utf-8">
+    <title> File in the Title with the DOM</title>
+    <script src="states.js"></script>
+    <link href="states.css" rel="stylesheet">
+</head>
+<!--YOU CANNOT CHANGE THE HTML HERE! -->
+<body>
+    <main>
+        <h1> States of the States</h1>
+        <h3 id="Author"></h3>
+        <h3 id="Number"></h3>
+        <h3 id="TotalPop"></h3>
 
-### (a)
+        <h2>Most and Least Populous</h2>
+        <div id="Population">
+            <ol class="most"></ol>
+            <ol class="least"></ol>
+        </div>
+        <section id="InfoTables">
+            <section id="AlphaName">
+                <h2>Alphabetical By Name</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Population</td>
+                            <td>Nickname</td>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
 
-Added images at front and at backend too. Images are less than 500KB. Here is the list.
+            <section id="AlphaCapital">
+                <h2>Alphabetical By State Capital</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Capital</td>
+                            <td>Name</td>
+                            <td>Admission Date</td>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+        </section>
+    </main>
 
-###### Front-end:
-
-**soccer.png** - In index.html page <br/>
-**golf.png** - In activities.html page <br/>
-**cricket.png** - In activities.html page<br/>
-
-###### Back-end:
-
-**backimage.jpg** - In index.html, activities.html, about.html pages <br/>
-**westbayclublogo.png** - In index.html, activities.html <br/>
-**ClubBanner2.png** - In about.html page <br/>
-
-![Answer1a1](images/answer1a1.png "icon") <br/>     
-![Answer1a2](images/answer1a2.png "icon") <br/>
-![Answer1a3](images/answer1a3.PNG "icon") <br/>
-
-### (b) 
-
-**Smileys with its codes**
-
-🏌   --GOLFER 127948 U+1f3cc <br/>
-⛳   --FLAG IN HOLE 9971 U+26f3 <br/>
-☺    --&#x263A <br/>
-😀  --&#x1F600 <br/>
-
-![Answer1b](images/answer1b.png "icon")
-
-----
-## Question2 : Server Deployment
-
-### (a)
-
-Moved my project to the public_html directory. 
-
-![Answer2a](images/answer2a.png "icon")
-
-### (b)
-
-Testing done and every thing works fine.<br/>
-Please use the below link to access my site **http://csweb01.csueastbay.edu/~gu9436/clubProject/**
-
-![Answer2b1](images/answer2b1.png "icon") <br/>
-![Answer2b2](images/answer2b2.png "icon") <br/>
-
-----
-## Question 3: JavaScript DOM and Arrays
-
-### (a)
-```
-<script>
-document.title = "Net id - gu9436 States.html";
-document.getElementById("Author").innerHTML = "$hiva_Pathruni";
-</script>
-```
-![Answer3a](images/answer3a.png "icon")
-
-### (b)
-```
-<script>
+    <script>
+ /* Your code here, I broke my work into four main
+        functions as listed below, plus helper functions for
+        array methods.
+        fiveMost();
+        fiveLeast();
+        stateTableName();
+        stateTableCapital();
+        */
+    var buf=0;
     document.title = "Net id - gu9436 States.html";
     document.getElementById("Author").innerHTML = "$hiva_Pathruni";
  
@@ -82,12 +75,7 @@ document.getElementById("Author").innerHTML = "$hiva_Pathruni";
     var total = statespopulation.reduce(function(prev, curr) {
     return prev + curr; });
     document.getElementById("TotalPop").innerHTML = "Total US population is : " +total+ ".";
-</script>
-```
-![Answer3b](images/answer3b.png "icon")
 
-### (c)
-```
         let fivemostele = document.getElementById("Population").getElementsByClassName("most")[0];      
         fiveMost(); 
     function fiveMost()
@@ -114,14 +102,6 @@ document.getElementById("Author").innerHTML = "$hiva_Pathruni";
         fiveleastele.innerHTML=myfiveleast;    
     }
 
-```
-![Answer3c](images/answer3c.png "icon")
-
-----
-## Question 4: HTML Table Generation
-
-### (a)
-```
     let statetablename = document.getElementById("AlphaName").getElementsByTagName("table")[0];
     let statetablenam=statetablename.getElementsByTagName("tbody")[0];
     stateTableName(); 
@@ -144,11 +124,7 @@ document.getElementById("Author").innerHTML = "$hiva_Pathruni";
         
         statetablenam.innerHTML=statetablenamresult;    
     }
-```
-![Answer4a](images/answer4a.png "icon")
-
-### (b)
-```
+        
     let statetablecapi = document.getElementById("AlphaCapital").getElementsByTagName("table")[0];
     let statetablecap=statetablecapi.getElementsByTagName("tbody")[0];        
     stateTableCapital();
@@ -171,25 +147,9 @@ document.getElementById("Author").innerHTML = "$hiva_Pathruni";
         
         statetablecap.innerHTML=statetablecapresult;
     }
-```
-![Answer4b](images/answer4b.png "icon")
+ 
 
-### (c)
+    </script>
+</body>
 
-Created states.css file
-
-![Answer4c](images/answer4c.png "icon")
-
-----
-## Question 5: General & Table Styling
-
-**Answer5**
-
-
-![Answer5](images/answer5css.png "icon")
-
-
-----
-----
-
-
+</html>

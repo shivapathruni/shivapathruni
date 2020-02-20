@@ -1,6 +1,34 @@
-body {
-  background-color:#bcbec1;
+/*body {
+    background-color:#bcbec1;
+}*/
+/*img {
+  border-radius: 50%;
+}*/
+html {
+    background-image: url('backimage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: top;
+    background-size: 100% 100%;
+    
 }
+.Home_body_act main,.Home_body_index main {
+    background-image: url('westbayclublogo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: 40% 65%;
+}
+.Home_body_about main{
+    background-image: url('ClubBanner2.jpg');
+    background-repeat: no-repeat;
+/*
+    background-attachment: fixed; 
+*/
+    background-position: bottom;
+    background-size: 100% 100%;
+}
+
 header h1 {
     color: #149bf1;
     -webkit-font-smoothing: antialiased;
@@ -14,7 +42,13 @@ main h1 {
     color: deeppink;
 }
 h1 {
+/*
     margin-left: 20px;
+*/
+    text-shadow: 0 0 15px #d12626, 0 0 10px #000000;
+}
+header nav,footer,main {
+    background-color:#dddfff;
 }
 footer {
     text-align: center;
@@ -24,24 +58,20 @@ footer {
 }
 nav,main {
     border: 2px solid #ad5959;   
-    background-color:#f2f2f2;
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
 }
-main {
-    margin-top: 50px;
-    margin-bottom: 50px;
+main,nav {
+    margin-top: 30px;
+    margin-bottom: 40px;
     margin-right: 50px;
     margin-left: 50px;
 }
 nav {
-    text-decoration: none;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-right: 1250px;
-    margin-left: 50px;
+    font-family: initial;
+    text-decoration: ;
     max-width: 10%;
     border-style: dashed;
 }
@@ -57,3 +87,4 @@ a:hover {
 a:visited {
     color: black;
 }
+
