@@ -38,13 +38,9 @@ header h1 {
     font-weight: bolder;
     text-align: center;
 }
-main h1 {
-    color: deeppink;
-}
+main h1 {color: floralwhite;}
 h1 {
-/*
-    margin-left: 20px;
-*/
+
     text-shadow: 0 0 15px #d12626, 0 0 10px #000000;
 }
 header nav,footer,main {
@@ -58,22 +54,28 @@ footer {
 }
 nav,main {
     border: 2px solid #ad5959;   
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-right: 50px;
+    margin-left: 50px;   
+}
+main {
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
-}
-main,nav {
-    margin-top: 30px;
-    margin-bottom: 40px;
-    margin-right: 50px;
-    margin-left: 50px;
+    
 }
 nav {
-    font-family: initial;
-    text-decoration: ;
-    max-width: 10%;
+    font-family: initial;    
     border-style: dashed;
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    max-width: 140px;
+    height: 110px;
 }
 ul {
     list-style-type: none;
