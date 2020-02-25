@@ -1,10 +1,10 @@
-# Homework #4 Solution
+# Homework #5 Solution
 **Shiva Pathruni**
 
 **NetID: gu9436**
 
 ----
-## Question1 : Login form & DOM events
+## Question1 : Install Node.js/NPM, version number, set up directory create package.json, install commonmark, run commonmark from command line with node.js
 
 ### (a)
 
@@ -27,7 +27,7 @@ function login_handler(form) {
 ![Answer1b](images/answer1b.png "icon")
 
 ----
-## Question2 : Club Events from JavaScript Data
+## Question2 : Bundler Installation and Use
 
 ### (a)
 ```
@@ -81,7 +81,7 @@ HTML code in ***activities.html***
 ![Answer2c](images/answer2c.png "icon")
 
 ----
-## Question 3: Club Application Form, DOM events
+## Question 3: Using Modules
 
 ### (a)
 
@@ -119,7 +119,7 @@ function Thanks(form)
 ![Answer3d](images/answer3d.png "icon")
 
 ----
-## Question 4: CSS Styling
+## Question 4: More Modules and Deployment
 
 ### (a)
 ```
@@ -231,7 +231,7 @@ nav {
 
 
 ----
-## Question 5: Deployment
+## Question 5: React Intro, JSON data
 
 **Answer5**
 
