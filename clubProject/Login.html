@@ -5,40 +5,13 @@
 <html>
 	<head>
         <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="club.css">
 		<title>
 		Club_Activities page
 		</title>
 <style>
-/*
-body {font-family: Arial, Helvetica, sans-serif;}
-*/
-/*.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}*/
-/*.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}*/
 
-/*input[type=email], input[type=password] {
 
-    font-weight: 800;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    color: rgb(236, 5, 5);
-}
 button {
   background-color: #4CAF50;
   color: white;
@@ -52,13 +25,7 @@ button:hover {
   opacity: 0.8;
 }    
 
-.container {
-  padding: 16px;
-}
-main{
-text-align: =center;
-}
-    
+
 .animate {
   -webkit-animation: animatezoom 0.6s;
   animation: animatezoom 0.6s
@@ -76,16 +43,29 @@ text-align: =center;
 span.psw {
   float: right;
   padding-top: 16px;
-}*/
-/*@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
+}
+
+    
+ .container  {
+      display: grid;
+      text-align: right;
+      grid-template-columns: auto auto;
+      grid-gap: 10px;
+      padding: 10px;
+      font-weight: bold;
   }
-  .cancelbtn {
-     width: 100%;
-  }
-} */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+nav {
+    display: flex;
+    align-self: start;
+    }
+
+
+
 </style>
 	</head>
 	<body>
@@ -99,20 +79,20 @@ span.psw {
                 <li><a href="activities.html">Activities</a></li>
                 <li><a href="membership.html">Membership</a></li>
                 <li><a href="about.html">About us</a></li>
-                <li><a href="Login.html">Login</a></li>
+                <li><a class="active" href="Login.html">Login</a></li>
             </ul>
         </nav>
         </header>
 		<main background-color:#f2f2f2  style="text-align: center;">
             <h1 align=center> Login </h1>
 <div id="id01" class="modal">
-  <form class="modal-content animate" method="post">
-    <div class="container">
-      <label for="ename"><b>Email</b></label>
-      <input type="email" placeholder="Enter Email ID" name="ename" required>&nbsp;&nbsp;&nbsp;
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>&nbsp;&nbsp;&nbsp;
-      <button type="button" onclick="login_handler(this.form)">Login</button>
+    <form class="modal-content animate" method="post">
+        <div class="container">
+        <label for="ename"><b>Email</b></label>
+        <input type="email" placeholder="Enter Email ID" name="ename" required>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <button type="button" onclick="login_handler(this.form)">Login</button>
 <!--      <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
       </label>
@@ -120,27 +100,23 @@ span.psw {
     <div class="container" style="background-color:#f1f1f1">
       <span class="psw">Forgot <a href="#">password?</a></span>
     </div>-->
-  </form>
-      </div>
-		</main>
+         </div>
+    </form>		
+</div> 
+            </main>
         <footer>
             <P>  🏊 <!--127946 U+1f3ca--> Copyright © 2020  &#x1F600 SHIVA PATHRUNI ☺ (gu9436) 🏄<!-- 127940 U+1f3c4 --></P> 
         </footer> 
-        </div> 
+
             
 <script>
-/*
-var modal = document.getElementById('id01');
-*/
-    
-    
+   
 function login_handler(form) {
     var ename=form.ename.value;
     var psw=form.psw.value;
-    console.log("email: "+ename+",password: "+psw);
+    console.log("email: "+ename+", password: "+psw);
 
 }
-    
 
 </script>
 
@@ -148,77 +124,4 @@ function login_handler(form) {
 </html>
     
 
-<!--<!DOCTYPE html>
-<html>
-<head>
-<style>
-
-
-
-
-
-/* The Modal (background) */
-.modal {
-/*
-  display: none;  
-*/
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-/*
-  margin: 5% auto 15% auto;   /* 5% from the top, 15% from the bottom and centered 
-*/
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size 
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-</style>
-</head>
-<body>
-
-<h2>Modal Login Form</h2>
-
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-
-
-
-<script>
-var modal = document.getElementById('id01');
-
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
-
-</body>
-</html>-->
+>

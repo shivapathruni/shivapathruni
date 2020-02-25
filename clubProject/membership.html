@@ -1,74 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
+  <!DOCTYPE html>
+  <html lang="en">
 
-<html>
-	<head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="club.css">
-		<title>
-		Club_Activities page
-		</title>
-<style>
+  <html>
+      <head>
+          <meta charset="utf-8"/>
+          <link rel="stylesheet" type="text/css" href="club.css">
+          <title>
+          Club_Activities page
+          </title>
+          <script type="text/javascript"  src="membership.js"></script>
+ <style>
+  .container  {
+      display: grid;
+      border: ridge;
+      text-align: right;
+      grid-template-columns: auto auto;
+      grid-gap: 10px;
+      padding: 10px;
+      font-weight: bold;
+  }
+  textarea    {
+      height: 100px;
+  }
 
-</style>
-	</head>
-	<body>
-        
-        <div class="Home_body_mem">
-		<header>
-            <h1>Welcome to Login</h1>
-        <nav>
-            <ul class="k">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="activities.html">Activities</a></li>
-                <li><a href="membership.html">Membership</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="Login.html">Login</a></li>
-            </ul>
-        </nav>
-        </header>
-		<main>
-            <h1>Apply Now!</h1>
-<div id="id01" class="modal">
-  <form class="modal-content animate" method="post">
-    <div class="container">
-        <label for="uname"><b>Name:</b></label>
-        <input type="text" placeholder="Enter your Name" name="uname" required>
-      <label for="ename"><b>Email:</b></label>
-      <input type="email" placeholder="Enter Email ID" name="ename" required>
-        <label for="bname"><b>Number/Brand:</b></label>
-        <input type="text" placeholder=" " name="bname" required>
-  <label for="lname">Level:</label>
-  <select id="level_id" name="lname">
-    <option value="Beginner">Beginner</option>
-    <option value="Intermediate">Intermediate</option>
-    <option value="Proficient">Proficient</option>
-    <option value="Expert">Expert</option>
+      
+  .ShowDialog {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
 
-  </select>
-        <!--        <label for="lname"><b>Level:</b></label>
-        <input type="text" placeholder=" " name="lname" required>-->
-        <label for="cname"><b>Comments:</b></label>
-        <textarea name="comments" id="comments" style="width:200px; height:150px"></textarea>
-        
-      <button type="button">Sign me up!</button>
-<!--      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-    <div class="container" style="background-color:#f1f1f1">
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>-->
-  </form>
-      </div>
-		</main>
-        <footer>
-            <P>  🏊 <!--127946 U+1f3ca--> Copyright © 2020  &#x1F600 SHIVA PATHRUNI ☺ (gu9436) 🏄<!-- 127940 U+1f3c4 --></P> 
-        </footer> 
-        </div> 
-            
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;  
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+  }
+</style>      
+      </head>
+      <body>
+          <div class="Home_body_mem">
+          <header>
+              <h1>Welcome to be a part of US</h1>
+          <nav>
+              <ul class="k">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="activities.html">Activities</a></li>
+                  <li><a class="active" href="membership.html">Membership</a></li>
+                  <li><a href="about.html">About us</a></li>
+                  <li><a href="Login.html">Login</a></li>
+              </ul>
+          </nav>
+          </header>
+          <main>
+              <h1>Apply Now!</h1>
+              <h2>Free Membership 😀</h2>
+              <form class="form_class" method="post">
+                  <div class="container">
+                    <label for="uname">Name:</label>
+                    <input type="text" placeholder="Enter your Name" name="uname" required>
+                    <label for="ename">Email:</label>
+                    <input type="email" placeholder="Enter Email ID" name="ename" required>
+                    <label for="bname">Activity Number/Brand:</label>
+                    <input type="text" placeholder=" " name="bname" required>
+                    <label for="lname">Level:</label>
+                    <select id="level_id" name="lname">
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Proficient">Proficient</option>
+                        <option value="Expert">Expert</option>
+                    </select>
+                    <label for="cname">Comments:</label>
+                    <textarea name="cname" id="comments" >
+                    </textarea>
+                    <button id="myBtn" class="button_class" type="button" onclick="Thanks(this.form)">Sign me up!</button><br><br>
+                  </div>
+              </form>
 
+          <section id="Sectionid_ThanksDialog" class="ShowDialog">
+              <div id="myModal" class="modal-content">
+                  <h1>Thanks for Signing Up </h1><br>
+                  <p  id="Pid_ThanksDialog" style="background-color:#dddfff;" ></p>
+                  <button type="button" onclick="document.getElementById('Sectionid_ThanksDialog').style.display='none'" class="closebtn">close</button><br><br><br>
+              </div>
+          </section>
+          </main>
+          <script>
+/*          var ownmodal = document.getElementById("Sectionid_ThanksDialog");
+          window.onclick = function(event) {
+          if (event.target == ownmodal) {
+              ownmodal.style.display = "none";
+          }
+          }*/
+          </script>
+          <footer>
+              <P>  🏊 <!--127946 U+1f3ca--> Copyright © 2020  &#x1F600 SHIVA PATHRUNI ☺ (gu9436) 🏄<!-- 127940 U+1f3c4 --></P> 
+          </footer> 
+          </div> 
 
-	</body>
-</html>
+      </body>
+  </html>
